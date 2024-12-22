@@ -1,0 +1,544 @@
+/* Features Section */
+.features-section {
+  padding: 60px 20px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.features-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+  position: relative;
+}
+
+.features-section h2::before {
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 5px;
+  background: linear-gradient(90deg, #3C0064, #4CAF50);
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  width: 30%;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transform: scale(0.95); /* Initially smaller than normal */
+  opacity: 0; /* Hidden initially */
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: transform 0.3s ease-in-out; /* Smooth transition for expansion */
+}
+
+/* Hover effect for specific card */
+.feature-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.feature-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature-text {
+  padding: 15px;
+  flex-grow: 1;
+}
+
+.feature-text h3 {
+  font-size: 1.4rem;
+  color: #333;
+  margin: 0;
+}
+
+.feature-details {
+  padding: 20px;
+  color: #555;
+  font-size: 1rem;
+  display: none;
+  flex-shrink: 0;
+}
+
+/* Show feature details on hover */
+.feature-card:hover .feature-details {
+  display: block;
+}
+
+.feature-card:hover img {
+  transform: scale(1.1);
+}
+
+/* Auto pop effect when scrolled into view */
+.feature-card.visible {
+  opacity: 1;
+  transform: scale(1); /* Return to normal scale */
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+/* Highlighting scale-up effect */
+.feature-card.highlight {
+  animation: highlightEffect 2s infinite; /* Continuous animation */
+  transform: scale(1.1); /* Scale-up effect */
+}
+
+@keyframes highlightEffect {
+  0% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .feature-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-card {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .feature-text h3 {
+    font-size: 1.2rem;
+  }
+}
+
+/* Mobile Styles for Header */
+@media (max-width: 576px) {
+  .features-section h2 {
+    font-size: 2rem;
+  }
+}
+
+/* New Courses Section */
+.courses-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.courses-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+  position: relative;
+}
+
+.courses-section h2::before {
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 5px;
+  background: linear-gradient(90deg, #3C0064, #4CAF50);
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.course-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.course-card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 45%;
+  opacity: 0;
+  transform: scale(0.95);
+  transition: transform 0.3s ease-in-out;
+}
+
+.course-card h3 {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.course-card p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.course-card .btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.course-card .btn:hover {
+  background-color: #3C0064;
+}
+
+.course-card.visible {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+/* Different styles for online and offline courses */
+.course-card.online {
+  background-color: #e6f7ff;
+}
+
+.course-card.offline {
+  background-color: #fdf2e9;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .course-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .course-card {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .courses-section h2 {
+    font-size: 2rem;
+  }
+}
+
+/* About Us Section */
+.about-us-section {
+  padding: 60px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.about-us-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+  position: relative;
+}
+
+.about-us-section h2::before {
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 5px;
+  background: linear-gradient(90deg, #3C0064, #4CAF50);
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about-us {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.about-text .btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.about-text .btn:hover {
+  background-color: #3C0064;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .about-us {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-image img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-us-section h2 {
+    font-size: 2rem;
+  }
+}
+/* CEO Introduction Section */
+.ceo-section {
+  padding: 60px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+  background: linear-gradient(90deg, #be8ae1, #c2e5c4);
+}
+
+.ceo-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+  position: relative;
+}
+
+.ceo-section h2::before {
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 5px;
+  background: linear-gradient(90deg, #3C0064, #4CAF50);
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ceo-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.ceo-text {
+  flex: 1;
+  font-size: 1.2rem;
+  color: #555;
+  text-align: left;
+}
+
+.ceo-name {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #333;
+}
+.ceo-image {
+  width: 70%;
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  position: relative; /* Make sure we can use the pseudo-element */
+  overflow: hidden; /* Ensure content is clipped inside the image area */
+  border-radius: 8px; /* Ensure consistency between image and container */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ceo-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Matches the container and pseudo-element */
+  position: relative; /* Ensures it's above the background image */
+  z-index: 1; /* Keeps the main image in front */
+}
+
+.ceo-image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/public/Amri Logo V02.png'); /* Set background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #3C0064;
+  opacity: 0.3; /* Change the opacity of the background image */
+  z-index: 0; /* Ensure background stays behind the image */
+  border-radius: 8px; /* Matches the shape of the image */
+}
+
+.ceo-text .btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.ceo-text .btn:hover {
+  background-color: #3C0064;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .ceo-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ceo-image img {
+    width: 70%;
+  }
+
+  .ceo-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .ceo-section h2 {
+    font-size: 2rem;
+  }
+}
+.brochure-section {
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.brochure-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #3C0064, #4CAF50);
+  border-radius: 12px;
+  padding: 20px 30px;
+  width: 80%;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.brochure-text {
+  flex: 2;
+  padding-right: 20px;
+}
+
+.brochure-text h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.brochure-text p {
+  font-size: 1rem;
+}
+
+.brochure-btn {
+  flex: 1;
+  text-align: center;
+  padding: 15px 20px;
+  background-color: white;
+  color: #3C0064;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.brochure-btn:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.contact-platforms-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.contact-platforms-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.contact-platforms {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.contact-platforms a {
+  text-decoration: none;
+}
+
+.platform-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  cursor: pointer;
+}
+
+.platform-card:hover {
+  transform: scale(1.15);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+}
+
+.platform-card img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.platform-card p {
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: bold;
+}

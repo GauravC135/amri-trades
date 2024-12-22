@@ -1,0 +1,103 @@
+/* General Styles */
+.courses-page {
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Curriculum Section */
+.curriculum-section {
+  margin: 60px 0;
+  text-align: center;
+}
+
+.curriculum-section h2 {
+  font-size: 2.4rem;
+  margin-bottom: 40px;
+}
+
+.curriculum-layout {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.central-box {
+  width: 200px;
+  height: 200px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 2;
+}
+
+.surrounding-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+
+.curriculum-box {
+  width: 150px;
+  height: 150px;
+  background: white;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.curriculum-box:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.curriculum-box.active {
+  border-color: #007bff;
+  background: #eaf4ff;
+}
+
+.curriculum-box h3 {
+  font-size: 1rem;
+  color: #333;
+}
+
+.details-panel {
+  margin-top: 40px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.details-panel h3 {
+  font-size: 1.8rem;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.details-panel p {
+  font-size: 1.2rem;
+  color: #555;
+}

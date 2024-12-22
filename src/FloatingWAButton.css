@@ -1,0 +1,40 @@
+/* Floating WhatsApp Button */
+.floating-whatsapp-button {
+  position: fixed;
+  bottom: 20px;  /* Distance from the bottom of the page */
+  right: 20px;   /* Distance from the right of the page */
+  background-color: #25d366;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  cursor: pointer;
+  z-index: 1000; /* Ensure it's above other content */
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Ensure text doesn't overflow out of button */
+}
+
+/* WhatsApp icon styling */
+.whatsapp-icon {
+  width: 50px; /* Set the size of the WhatsApp icon */
+  height: 50px;
+}
+
+/* Tooltip style when hovered over */
+.floating-whatsapp-button[title]:hover::after {
+  content: attr(title);  /* Use the title attribute as the message */
+  position: absolute;
+  bottom: 70px;  /* Position above the button */
+  right: 0;
+  background-color: #25d366;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  white-space: nowrap;  /* Prevent the message from wrapping */
+  z-index: 2000; /* Make sure it appears above everything else */
+  opacity: 1;
+}
