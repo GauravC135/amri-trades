@@ -396,7 +396,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #3C0064;
+  background-color: #a485b9;
   opacity: 0.3; /* Change the opacity of the background image */
   z-index: 0; /* Ensure background stays behind the image */
   border-radius: 8px; /* Matches the shape of the image */
