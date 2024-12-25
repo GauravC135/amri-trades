@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/amri-trades/static/css/main.25f40f7b.css",
-    "main.js": "/amri-trades/static/js/main.dcdb331c.js",
+    "main.js": "/amri-trades/static/js/main.f4b603a8.js",
     "static/js/453.8e3cbed0.chunk.js": "/amri-trades/static/js/453.8e3cbed0.chunk.js",
     "static/media/Amri Logo V02.png": "/amri-trades/static/media/Amri Logo V02.0cae2f6f7b03df29abe1.png",
     "index.html": "/amri-trades/index.html",
     "main.25f40f7b.css.map": "/amri-trades/static/css/main.25f40f7b.css.map",
-    "main.dcdb331c.js.map": "/amri-trades/static/js/main.dcdb331c.js.map",
+    "main.f4b603a8.js.map": "/amri-trades/static/js/main.f4b603a8.js.map",
     "453.8e3cbed0.chunk.js.map": "/amri-trades/static/js/453.8e3cbed0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.25f40f7b.css",
-    "static/js/main.dcdb331c.js"
+    "static/js/main.f4b603a8.js"
   ]
 }
