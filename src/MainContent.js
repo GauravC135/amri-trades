@@ -153,7 +153,7 @@ const MainContent = () => {
             <p className="ceo-name">Akshay Amri, CEO & Founder</p>
           </div>
           <div className="ceo-image">
-            <img src="AkshayAmri.jpeg" alt="CEO" />
+            <img src="AkshayAmri.png" alt="CEO" />
           </div>
         </div>
       </div>
