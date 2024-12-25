@@ -65,7 +65,7 @@ const MainContent = () => {
             </div>
           </div>
           <div className="feature-card">
-            <img src="features4.jpeg" alt="Feature 2" />
+            <img src="Features4.jpeg" alt="Feature 2" />
             <div className="feature-text">
               <h3>Live Q/A Session</h3>
             </div>
