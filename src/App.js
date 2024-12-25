@@ -1,77 +1,38 @@
-// import logo from './logo.svg';
- import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
-// import React from 'react';
-// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-// import Header from './Header';
-// import MainContent from './MainContent';
-// import Footer from './Footer';
-// import './Styles.css';
-// // import MainContent from './MainContent'; // Component where the content is displayed
-
-// function App() {
-//   return (
-//     <Router>
-//       <div>
-//         <Header />  {/* Header component */}
-//         <Switch>
-//           <Route path="/" exact component={MainContent} />
-//           {/* Add other routes here */}
-//         </Switch>
-//         <Footer/>
-//       </div>
-//     </Router>
-//   );
-// }
-
-// export default App;
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Use Routes and Route here
-import Header from './Header'; // Your header component
-import MainContent from './MainContent'; // Your main content component
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'; 
+import Header from './Header'; 
+import MainContent from './MainContent'; 
 import Footer from './Footer';
 import './Styles.css';
 import About from './about';
-import Contact from './Contact'
-import Courses from "./Courses";
+import Contact from './Contact';
+import Courses from './Courses';
+import Career from './Career';
+import { Helmet } from 'react-helmet'; // Import react-helmet for title and favicon management
+import Resources from './Resources';
 
 function App() {
   return (
-    <Router>
-      <Header />
-      <Routes>  {/* Use Routes instead of Switch */}
-        <Route path="/" element={<MainContent />} />  {/* Use element prop for the component */}
-        <Route path="/about" element={<About />} />  {/* Use element prop for the component */}
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/courses" element={<Courses />} />
-        {/* Add more routes if needed */}
-      </Routes>
-      <Footer/>
-    </Router>
+    <>
+      <Helmet>
+        <title>Amri Trades VSR </title> {/* Replace with your site title */}
+        <link rel="icon" type="image/png" href="Amri Logo V02.png" />
+        {/* Ensure favicon.ico is in the public folder */}
+      </Helmet>
+      <Router>
+        <Header />
+        <Routes>  
+          <Route path="/" element={<MainContent />} />  
+          <Route path="/about" element={<About />} />  
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/courses" element={<Courses />} />
+          <Route path="/career" element={<Career />} />
+          <Route path="/resources" element={<Resources />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </>
   );
 }
 
 export default App;
-

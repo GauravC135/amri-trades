@@ -1,0 +1,270 @@
+/* Resources.css */
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+/* Header Section */
+.resources-header {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(45deg, #34b7f1, #4caf50);
+    color: white;
+    border-bottom: 10px solid #3e8e41;
+}
+
+.resources-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+.resources-header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Broker Cards Section */
+.broker-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 3rem 1rem;
+    background-color: #ffffff;
+}
+
+.broker-card {
+    background: linear-gradient(135deg, #ffffff, #f5f5f5);
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 350px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    position: relative;
+}
+
+.broker-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: #4caf50;
+    border-radius: 5px 5px 0 0;
+}
+
+.broker-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #e3e3e3, #ffffff);
+}
+
+.broker-card h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.broker-card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+}
+
+.broker-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem;
+    text-align: left;
+    font-size: 1rem;
+    color: #555;
+}
+
+.broker-card ul li {
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.broker-card ul li:before {
+    content: "✔";
+    color: #4caf50;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.8rem 1.4rem;
+    background-color: #34b7f1;
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0085c7;
+}
+
+/* Why DMAT Section */
+.why-dmat-section {
+    background-color: #f5f5f5;
+    padding: 3rem 1rem;
+    text-align: center;
+    border-top: 5px solid #4caf50;
+}
+
+.why-dmat-section h2 {
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+.why-dmat-section p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+.why-dmat-section ul {
+    list-style: none;
+    margin: 2rem auto;
+    padding-left: 1.5rem;
+    text-align: left;
+    max-width: 750px;
+}
+
+.why-dmat-section ul li {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 1rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.why-dmat-section ul li:before {
+    content: "•";
+    color: #4caf50;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.5rem;
+}
+
+.resources-footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #4caf50;
+    color: white;
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .resources-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .broker-section {
+        gap: 1.5rem;
+        padding: 2rem 1rem;
+    }
+
+    .broker-card {
+        width: 320px;
+    }
+}
+
+@media (max-width: 768px) {
+    .resources-header h1 {
+        font-size: 2.2rem;
+    }
+
+    .broker-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .broker-card {
+        width: 90%;
+        max-width: 380px;
+        padding: 1.5rem;
+    }
+
+    .cta-button {
+        font-size: 1rem;
+    }
+
+    .why-dmat-section h2 {
+        font-size: 2rem;
+    }
+
+    .why-dmat-section p {
+        font-size: 1rem;
+    }
+
+    .why-dmat-section ul {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .resources-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .resources-header p {
+        font-size: 1rem;
+    }
+
+    .broker-section {
+        padding: 1.5rem;
+    }
+
+    .broker-card {
+        width: 100%;
+        max-width: 100%;
+        padding: 1.2rem;
+    }
+
+    .cta-button {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
+    }
+
+    .why-dmat-section h2 {
+        font-size: 1.6rem;
+    }
+
+    .why-dmat-section p {
+        font-size: 0.9rem;
+    }
+
+    .why-dmat-section ul {
+        max-width: 100%;
+    }
+
+    .resources-footer {
+        font-size: 0.9rem;
+    }
+}

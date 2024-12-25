@@ -1,0 +1,54 @@
+.career-page {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    color: #2c3e50;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #7f8c8d;
+  }
+  
+  .job-opportunity h2 {
+    color: #27ae60;
+    margin-top: 40px;
+  }
+  
+  .job-opportunity p {
+    font-size: 1.1rem;
+    color: #34495e;
+    margin-top: 20px;
+  }
+  
+  .apply-btn {
+    padding: 15px 30px;
+    margin-top: 20px;
+    background-color: #2980b9;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .apply-btn:hover {
+    background-color: #3498db;
+  }
+  
+  .remote-work h3 {
+    font-size: 1.5rem;
+    margin-top: 40px;
+    color: #e74c3c;
+  }
+  
+  footer {
+    margin-top: 40px;
+    color: #95a5a6;
+    font-size: 0.9rem;
+  }
+  

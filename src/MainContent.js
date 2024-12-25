@@ -56,7 +56,7 @@ const MainContent = () => {
           <div className="feature-card">
             <img src="features1.png" alt="Feature 1" />
             <div className="feature-text">
-              <h3>Beginner Friendly/Learn from Scratch</h3>
+              <h3>Learn from Scratch</h3>
             </div>
             <div className="feature-details">
               <p>
@@ -65,7 +65,7 @@ const MainContent = () => {
             </div>
           </div>
           <div className="feature-card">
-            <img src="feature2.jpg" alt="Feature 2" />
+            <img src="features4.jpeg" alt="Feature 2" />
             <div className="feature-text">
               <h3>Live Q/A Session</h3>
             </div>
@@ -97,7 +97,7 @@ const MainContent = () => {
             <p>
               Welcome to AmriTradesVSR, a premier institution dedicated to fostering financial independence. Our mission is to demystify the trading process, providing personalized guidance and support. Through our unique pedagogical approach, which integrates experiential learning, expert mentorship, and real-world case studies, we empower individuals to excel in the trading arena. By joining our community, you will unlock your full financial potential and embark on a journey towards achieving lasting financial freedom.
             </p>
-            <a href="#about-us-details" className="btn">
+            <a href="#about" className="btn">
               Know More About Us
             </a>
           </div>
@@ -186,15 +186,10 @@ const MainContent = () => {
             <img src="/email-icon.png" alt="Email" />
             <p>Email Us</p>
           </a>
-          <a
-            href="https://wa.me/1234567890"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="platform-card"
-          >
-            <img src="/whatsapp-icon.png" alt="WhatsApp" />
-            <p>WhatsApp</p>
-          </a>
+          <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer" className="platform-card">
+      <img src="/instagram-icon.png" alt="Instagram" />
+      <p>Instagram</p>
+    </a>
           <a
             href="https://linkedin.com/in/your-profile"
             target="_blank"

@@ -26,11 +26,11 @@ const Header = () => {
       case "/about":
         return "Pic3AT.png";
       case "/resources":
-        return "Pic5AT.jpg";
+        return "pic5AT.jpg";
       case "/contact":
-        return "Pic6AT.jpg";
+        return "pic6AT.jpg";
       default:
-        return "Pic4AT.jpg";
+        return "pic4AT.jpg";
     }
   };
 
@@ -85,6 +85,7 @@ const Header = () => {
               <Nav.Link as={Link} to="/about" onClick={() => setIsNavbarExpanded(false)}>About Us</Nav.Link>
               <Nav.Link as={Link} to="/resources" onClick={() => setIsNavbarExpanded(false)}>Resources</Nav.Link>
               <Nav.Link as={Link} to="/contact" onClick={() => setIsNavbarExpanded(false)}>Contact Us</Nav.Link>
+              <Nav.Link as={Link} to="/career" onClick={() => setIsNavbarExpanded(false)}>Career</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
