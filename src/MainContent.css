@@ -17,10 +17,10 @@
   position: absolute;
   width: 80px;
   height: 5px;
-  background: linear-gradient(90deg, #3C0064, #4CAF50);
+  background: linear-gradient(90deg, #3C0064, #c6cf95);
   bottom: -10px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-20%);
 }
 
 .feature-cards {
@@ -156,10 +156,10 @@
   position: absolute;
   width: 80px;
   height: 5px;
-  background: linear-gradient(90deg, #3C0064, #4CAF50);
+  background: linear-gradient(90deg, #3C0064, #c6cf95);
   bottom: -10px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-20%);
 }
 
 .course-cards {
@@ -195,15 +195,15 @@
   display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #4CAF50;
-  color: white;
+  background-color: #c6cf95;
+  color: #3C0064;
   text-decoration: none;
   border-radius: 4px;
   transition: background-color 0.3s ease;
 }
 
 .course-card .btn:hover {
-  background-color: #3C0064;
+  background-color: #6c7051;
 }
 
 .course-card.visible {
@@ -259,10 +259,10 @@
   position: absolute;
   width: 80px;
   height: 5px;
-  background: linear-gradient(90deg, #3C0064, #4CAF50);
+  background: linear-gradient(90deg, #3C0064, #c6cf95);
   bottom: -10px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-20%);
 }
 
 .about-us {
@@ -292,14 +292,14 @@
 .about-text .btn {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #4CAF50;
-  color: white;
+  background-color: #c6cf95;
+  color: #3C0064;
   text-decoration: none;
   border-radius: 4px;
 }
 
 .about-text .btn:hover {
-  background-color: #3C0064;
+  background-color: #6c7051;
 }
 
 /* Mobile Styles */
@@ -324,7 +324,7 @@
   padding: 60px 20px;
   background-color: #f4f4f4;
   text-align: center;
-  background: linear-gradient(90deg, #be8ae1, #c2e5c4);
+  background: linear-gradient(20deg, #be8ae1, #cfd3b4);
 }
 
 .ceo-section h2 {
@@ -339,10 +339,10 @@
   position: absolute;
   width: 80px;
   height: 5px;
-  background: linear-gradient(90deg, #3C0064, #4CAF50);
+  background: linear-gradient(90deg, #3C0064, #c6cf95);
   bottom: -10px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-20%);
 }
 
 .ceo-content {
@@ -449,7 +449,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(90deg, #3C0064, #4CAF50);
+  background: linear-gradient(70deg, #3C0064, #c6cf95);
   border-radius: 12px;
   padding: 20px 30px;
   width: 80%;
@@ -465,17 +465,19 @@
 .brochure-text h2 {
   font-size: 2rem;
   margin-bottom: 10px;
+  color: #c6cf95;
 }
 
 .brochure-text p {
   font-size: 1rem;
+  color: #c6cf95;
 }
 
 .brochure-btn {
   flex: 1;
   text-align: center;
   padding: 15px 20px;
-  background-color: white;
+  background-color: #c6cf95;
   color: #3C0064;
   text-decoration: none;
   font-weight: bold;
@@ -484,8 +486,8 @@
 }
 
 .brochure-btn:hover {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #6c7051;
+  /* color: white; */
 }
 .contact-platforms-section {
   padding: 60px 20px;
@@ -516,7 +518,7 @@
   justify-content: center;
   width: 150px;
   height: 150px;
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  background: linear-gradient(135deg, #6a11cb, #c6cf95);
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   padding: 20px;
@@ -527,7 +529,7 @@
 .platform-card:hover {
   transform: scale(1.15);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-  background: linear-gradient(135deg, #2575fc, #6a11cb);
+  background: linear-gradient(135deg, #c6cf95, #6a11cb);
 }
 
 .platform-card img {
@@ -539,6 +541,6 @@
 
 .platform-card p {
   font-size: 1.1rem;
-  color: #fff;
+  color: #3C0064;
   font-weight: bold;
 }

@@ -1,10 +1,12 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 import "./Contact.css";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
+    phone: "",
     message: "",
   });
   const [formStatus, setFormStatus] = useState("");
@@ -12,14 +14,37 @@ const Contact = () => {
   // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
+
     // Simple validation
-    if (!formData.name || !formData.email || !formData.message) {
+    if (!formData.name || !formData.email || !formData.phone || !formData.message) {
       setFormStatus("Please fill in all fields.");
       return;
     }
-    // Normally, here you would send the data to a server (e.g., using an API)
-    setFormStatus("Message sent successfully! We'll get back to you soon.");
-    setFormData({ name: "", email: "", message: "" });
+
+    // EmailJS configuration (replace with your EmailJS service ID, template ID, and user ID)
+    emailjs
+      .send(
+        "service_0s0q49e", // Replace with your EmailJS service ID
+        "template_zo95lk8", // Replace with your EmailJS template ID
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          phone: formData.phone,
+          message: formData.message,
+        },
+        "MOT-UjCrIiI4zQB2s" // Replace with your EmailJS user ID
+      )
+      .then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+          setFormStatus("Message sent successfully! We'll get back to you soon.");
+          setFormData({ name: "", email: "", phone: "", message: "" });
+        },
+        (error) => {
+          console.log("FAILED...", error);
+          setFormStatus("Failed to send message. Please try again later.");
+        }
+      );
   };
 
   // Handle input changes
@@ -78,6 +103,14 @@ const Contact = () => {
             onChange={handleChange}
             required
           />
+          <input
+            type="text"
+            name="phone"
+            value={formData.phone}
+            placeholder="Your Phone Number"
+            onChange={handleChange}
+            required
+          />
           <textarea
             name="message"
             value={formData.message}
@@ -96,7 +129,7 @@ const Contact = () => {
         <h2>Connect With Us</h2>
         <div className="contact-platforms">
           <a
-            href="mailto:youremail@example.com"
+            href="mailto:support@amri-trades.com"
             target="_blank"
             rel="noopener noreferrer"
             className="platform-card"
@@ -105,7 +138,7 @@ const Contact = () => {
             <p>Email Us</p>
           </a>
           <a
-            href="https://www.instagram.com/yourprofile"   
+            href="https://www.instagram.com/yourprofile"
             target="_blank"
             rel="noopener noreferrer"
             className="platform-card"
@@ -122,10 +155,7 @@ const Contact = () => {
             <img src="/linkedin-icon.png" alt="LinkedIn" />
             <p>LinkedIn</p>
           </a>
-          <a
-            href="tel:+1234567890"
-            className="platform-card"
-          >
+          <a href="tel:+1234567890" className="platform-card">
             <img src="/call-icon.png" alt="Call" />
             <p>Call Us</p>
           </a>

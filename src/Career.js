@@ -28,9 +28,6 @@ const CareerPage = () => {
         </section>
       </main>
 
-      <footer>
-        <p>&copy; 2024 Trading Firm. All Rights Reserved.</p>
-      </footer>
     </div>
   );
 };

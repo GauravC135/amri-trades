@@ -21,7 +21,7 @@ const Resources = () => {
                         <li><strong>Low Brokerage Fees:</strong> Transparent and competitive pricing.</li>
                         <li><strong>Mobile & Web Platforms:</strong> Access your portfolio anytime, anywhere.</li>
                     </ul>
-                    <a href="#" className="cta-button">Open a DMAT Account with Dhan</a>
+                    <a href="#" className="cta-button">Open a DEMAT Account with Dhan</a>
                 </div>
 
                 <div className="broker-card">
@@ -33,7 +33,7 @@ const Resources = () => {
                         <li><strong>Robust Platforms:</strong> Desktop, web, and mobile versions tailored to various trading needs.</li>
                         <li><strong>API for Developers:</strong> Build custom trading strategies with Fyers\u2019 API.</li>
                     </ul>
-                    <a href="#" className="cta-button">Open a DMAT Account with Fyers</a>
+                    <a href="#" className="cta-button">Open a DEMAT Account with Fyers</a>
                 </div>
 
                 <div className="broker-card">
@@ -45,19 +45,19 @@ const Resources = () => {
                         <li><strong>Competitive Pricing:</strong> Attractive brokerage plans.</li>
                         <li><strong>All-in-One App:</strong> Seamlessly manage your investments with a single app.</li>
                     </ul>
-                    <a href="#" className="cta-button">Open a DMAT Account with Kotak Neo</a>
+                    <a href="#" className="cta-button">Open a DEMAT Account with Kotak Neo</a>
                 </div>
             </section>
 
-            <section className="why-dmat-section">
-                <h2>Why Open a DMAT Account?</h2>
-                <p>A DMAT (Dematerialized) account is essential for storing your investments in electronic form. It offers:</p>
+            <section className="why-DEMAT-section">
+                <h2>Why Open a DEMAT Account?</h2>
+                <p>A DEMAT (Dematerialized) account is essential for storing your investments in electronic form. It offers:</p>
                 <ul>
                     <li><strong>Secure Transactions:</strong> Safe storage for shares and securities.</li>
                     <li><strong>Easy Access:</strong> Manage your portfolio online or via apps.</li>
                     <li><strong>Seamless Trading:</strong> Buy and sell stocks effortlessly.</li>
                 </ul>
-                <p>Take the first step towards building your portfolio by opening a DMAT account with one of these trusted brokers today!</p>
+                <p>Take the first step towards building your portfolio by opening a DEMAT account with one of these trusted brokers today!</p>
             </section>
         </div>
     );

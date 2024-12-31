@@ -4,22 +4,22 @@ import './about.css';
 const About = () => {
   // Define teamMembers array with details
   const teamMembers = [
+    // {
+    //   name: "John Doe",
+    //   role: "Founder & CEO",
+    //   image: "team1.jpg", // Replace with actual image paths
+    //   description: "John has over 10 years of experience in the financial market and leads the company with a vision for innovation and growth.",
+    // },
     {
-      name: "John Doe",
-      role: "Founder & CEO",
-      image: "team1.jpg", // Replace with actual image paths
-      description: "John has over 10 years of experience in the financial market and leads the company with a vision for innovation and growth.",
-    },
-    {
-      name: "Jane Smith",
-      role: "Lead Developer",
-      image: "team2.jpg", // Replace with actual image paths
+      name: "Akshay Amri",
+      role: "Mentor",
+      image: "AkshayAmri.jpeg", // Replace with actual image paths
       description: "Jane is the tech wizard behind our trading tools, ensuring reliability and scalability for all users.",
     },
     {
-      name: "Alex Brown",
+      name: "Anjali Dongre",
       role: "Marketing Head",
-      image: "team3.jpg", // Replace with actual image paths
+      image: "AnjaliDongre.jpeg", // Replace with actual image paths
       description: "Alex brings creativity and strategy to connect with our audience and expand our reach globally.",
     },
   ];

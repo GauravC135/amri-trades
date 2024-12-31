@@ -128,7 +128,7 @@ const CoursePage = () => {
             src={`${process.env.PUBLIC_URL}/AkayAmri.png`} // Correct way to reference public folder
             alt="Akshay Amri"
           />
-          <h2>Meet Your Instructor: Akshay Amri</h2>
+          <h2>Meet Your Mentor: Akshay Amri</h2>
           <p>
             Akshay Amri is an expert in financial education and trading. With years of experience, he helps individuals unlock their true potential and achieve financial freedom.
           </p>

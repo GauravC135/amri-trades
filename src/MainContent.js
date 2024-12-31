@@ -150,7 +150,7 @@ const MainContent = () => {
             <p>
               Having learned from veterans in the field and gained vast, versatile experience in the markets, Anish has adopted a practical, in-depth tested approach in his strategies. Yet, he has designed the course in the simplest manner of understanding, ensuring accessibility for everyone. Featured in reputable media platforms such as Times of India, Hindustan Times, Economic Times, and more, Anish has remained consistent in delivering excellent stock market education to aspiring traders through his effective teaching methods. He has been honored with the "Millennium Brilliance Award" for the best trainer in the stock market industry, while Booming Bulls Academy, India's leading stock market training institution, stands as a testament to his excellence in education.
             </p>
-            <p className="ceo-name">Akshay Amri, CEO & Founder</p>
+            <p className="ceo-name">Akshay Amri, Mentor</p>
           </div>
           <div className="ceo-image">
             <img src="AkshayAmri.png" alt="CEO" />
@@ -183,11 +183,11 @@ const MainContent = () => {
             rel="noopener noreferrer"
             className="platform-card"
           >
-            <img src="/email-icon.png" alt="Email" />
+            <img src="EmailLogo.png" alt="Email" />
             <p>Email Us</p>
           </a>
           <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer" className="platform-card">
-      <img src="/instagram-icon.png" alt="Instagram" />
+      <img src="InstaLogo.jpg" alt="Instagram" />
       <p>Instagram</p>
     </a>
           <a
@@ -196,11 +196,11 @@ const MainContent = () => {
             rel="noopener noreferrer"
             className="platform-card"
           >
-            <img src="/linkedin-icon.png" alt="LinkedIn" />
+            <img src="LinkedInLogo.jpg" alt="LinkedIn" />
             <p>LinkedIn</p>
           </a>
           <a href="tel:+1234567890" className="platform-card">
-            <img src="/call-icon.png" alt="Call" />
+            <img src="CallLogo.jpg" alt="Call" />
             <p>Call Us</p>
           </a>
         </div>
