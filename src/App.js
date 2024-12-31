@@ -15,12 +15,10 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Amri Trades VSR </title> {/* Replace with your site title */}
-        {/* <link rel="icon" type="image/png" href="Amri Logo V02.png" /> */}
-        <link rel="icon" href="%PUBLIC_URL%/Amri Logo V02.png" />
+  <title>Amri Trades VSR</title> {/* Replace with your site title */}
+  <link rel="icon" type="image/png" href="/AmriTrades.jpg" /> {/* Use absolute path from public folder */}
+</Helmet>
 
-        {/* Ensure favicon.ico is in the public folder */}
-      </Helmet>
       <Router>
         <Header />
         <Routes>  
