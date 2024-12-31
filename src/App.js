@@ -16,7 +16,9 @@ function App() {
     <>
       <Helmet>
         <title>Amri Trades VSR </title> {/* Replace with your site title */}
-        <link rel="icon" type="image/png" href="Amri Logo V02.png" />
+        {/* <link rel="icon" type="image/png" href="Amri Logo V02.png" /> */}
+        <link rel="icon" href="%PUBLIC_URL%/Amri Logo V02.png" />
+
         {/* Ensure favicon.ico is in the public folder */}
       </Helmet>
       <Router>
