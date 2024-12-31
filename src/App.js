@@ -16,7 +16,7 @@ function App() {
     <>
       <Helmet>
   <title>Amri Trades VSR</title> {/* Replace with your site title */}
-  <link rel="icon" type="image/png" href="./public/AmriTrades.jpg" /> {/* Use absolute path from public folder */}
+  <link rel="icon" href="/favicon.ico" /> {/* Use absolute path from public folder */}
 </Helmet>
 
       <Router>
