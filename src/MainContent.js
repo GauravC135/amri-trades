@@ -183,7 +183,7 @@ const MainContent = () => {
             rel="noopener noreferrer"
             className="platform-card"
           >
-            <img src="EmailLogo.png" alt="Email" />
+            <img src="EmaiLogo.png" alt="Email" />
             <p>Email Us</p>
           </a>
           <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer" className="platform-card">
