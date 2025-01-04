@@ -44,11 +44,16 @@ const Header = () => {
           className="header-img"
         />
         <div className="join-us-section">
+          <div className="Header-text">
+            <h2>
+              A Risk Free Way to Improve your Investment Game
+            </h2>
+          </div>
           <button
             className="join-us-button"
             onClick={() =>
               window.open(
-                "https://docs.google.com/forms/d/e/1FAIpQLSdEegi3q9Ev4AlETsQj65bZPDz4jTFDoSSWSIRWS2OHGr0yVg/viewform?usp=sf_link",
+                "https://docs.google.com/forms/d/e/1FAIpQLScpco6GkK_sCOT4OixETFO8bYEUY-4v9jsOzDoNmx_4ICZ82g/viewform?usp=sf_link",
                 "_blank"
               )
             }

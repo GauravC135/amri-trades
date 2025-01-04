@@ -146,15 +146,21 @@ const MainContent = () => {
       <div className="ceo-section">
        
         <div className="ceo-content">
+        <div className="ceo-image">
+            <img src="AkshayAmri.png" alt="CEO" />
+          </div>
           <div className="ceo-text">
             <p>
-              Having learned from veterans in the field and gained vast, versatile experience in the markets, Anish has adopted a practical, in-depth tested approach in his strategies. Yet, he has designed the course in the simplest manner of understanding, ensuring accessibility for everyone. Featured in reputable media platforms such as Times of India, Hindustan Times, Economic Times, and more, Anish has remained consistent in delivering excellent stock market education to aspiring traders through his effective teaching methods. He has been honored with the "Millennium Brilliance Award" for the best trainer in the stock market industry, while Booming Bulls Academy, India's leading stock market training institution, stands as a testament to his excellence in education.
+             
+            Hello, my name is Akshay Amri. I hold a Bachelor’s degree in Computer Applications (BCA) and began my trading journey in 2017. Over the years, I have gained extensive knowledge and experience in the stock market. I am also an NISM-certified Research Analyst and a certified Mutual Fund Distributor.
+
+The year 2021 marked a significant turning point in my career, as I mastered the art of technical analysis, which has become my core strength. I firmly believe that with the right application of technical analysis, anyone can achieve consistent success in the stock market.
+
+My purpose is to empower individuals with financial knowledge, enabling them to become financially independent. Through structured wealth management programs, I aim to help people achieve their financial goals and live the life they aspire to. Financial literacy is not a luxury but a necessity, and I am committed to ensuring that this knowledge is accessible to everyone.
             </p>
             <p className="ceo-name">Akshay Amri, Mentor</p>
           </div>
-          <div className="ceo-image">
-            <img src="AkshayAmri.png" alt="CEO" />
-          </div>
+          
         </div>
       </div>
 
