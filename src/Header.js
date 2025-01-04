@@ -45,9 +45,9 @@ const Header = () => {
         />
         <div className="join-us-section">
           <div className="Header-text">
-            <h2>
+            <h1>
               A Risk Free Way to Improve your Investment Game
-            </h2>
+            </h1>
           </div>
           <button
             className="join-us-button"
