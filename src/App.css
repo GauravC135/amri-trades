@@ -1,8 +1,9 @@
 body {
-  background-color: #E6E6FA;  /* Light gray background (change as needed) */
+  background-color: #faf9e6 !important;  /* Light gray background (change as needed) */
   margin: 0;  /* Optional: Remove default margin */
   padding: 0;  /* Optional: Remove default padding */
   font-family: Arial, sans-serif;  /* Optional: Set a default font */
+  /* opacity: 70%; */
 }
 
 /* 

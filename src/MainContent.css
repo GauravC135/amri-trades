@@ -1,7 +1,8 @@
+
 /* Features Section */
 .features-section {
   padding: 60px 20px;
-  background-color: #f7f7f7;
+  background-color: #faf9e6;
   text-align: center;
 }
 
@@ -243,7 +244,7 @@
 /* About Us Section */
 .about-us-section {
   padding: 60px 20px;
-  background-color: #f4f4f4;
+  background-color: #faf9e6;
   text-align: center;
 }
 
@@ -449,7 +450,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(70deg, #3C0064, #c6cf95);
+  background: linear-gradient(70deg, #3C0064, #fffdd0);
   border-radius: 12px;
   padding: 20px 30px;
   width: 80%;
