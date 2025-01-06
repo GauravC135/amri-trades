@@ -101,9 +101,9 @@ const MainContent = () => {
               Know More About Us
             </a>
           </div>
-          <div className="about-image">
+          {/* <div className="about-image">
             <img src="about-us.jpg" alt="About Us" />
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -202,11 +202,11 @@ My purpose is to empower individuals with financial knowledge, enabling them to 
             rel="noopener noreferrer"
             className="platform-card"
           >
-            <img src="LinkedInLogo.jpg" alt="LinkedIn" />
+            <img src="LinkedInLogo.png" alt="LinkedIn" />
             <p>LinkedIn</p>
           </a>
           <a href="tel:+1234567890" className="platform-card">
-            <img src="CallLogo.jpg" alt="Call" />
+            <img src="CallLogo.png" alt="Call" />
             <p>Call Us</p>
           </a>
         </div>
