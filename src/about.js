@@ -32,7 +32,7 @@ const About = () => {
     {
       name: "Anjali Dongre",
       role: "Marketing Head",
-      image: "TeamMember#4.png", // Replace with actual image paths
+      image: "TeamMember4.png", // Replace with actual image paths
       description: "Alex brings creativity and strategy to connect with our audience and expand our reach globally.",
     },
     
