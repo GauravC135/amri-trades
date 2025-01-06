@@ -55,7 +55,7 @@
 
 .feature-card img {
   width: 100%;
-  height: 200px;
+  /* height: 200px; */
   object-fit: cover;
   transition: transform 0.3s ease-in-out;
 }
@@ -140,7 +140,7 @@
 /* New Courses Section */
 .courses-section {
   padding: 60px 20px;
-  background-color: #f9f9f9;
+  background-color: #faf9e6;
   text-align: center;
   margin-top: 60px;
 }
@@ -260,7 +260,7 @@
   position: absolute;
   width: 80px;
   height: 5px;
-  background: linear-gradient(90deg, #3C0064, #c6cf95);
+  background: linear-gradient(90deg, #3C0064, #faf9e6);
   bottom: -10px;
   left: 50%;
   transform: translateX(-20%);
@@ -285,7 +285,7 @@
 }
 
 .about-image img {
-  width: 100%;
+  width: 1rem;
   height: auto;
   border-radius: 8px;
 }
@@ -325,7 +325,8 @@
   padding: 60px 20px;
   background-color: #f4f4f4;
   text-align: center;
-  background: linear-gradient(20deg, #be8ae1, #cfd3b4);
+  /* background: linear-gradient(20deg, #be8ae1, #cfd3b4); */
+  background-color: #faf9e6;
 }
 
 .ceo-section h2 {
@@ -442,7 +443,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f9f9f9;
+  background-color: #faf9e6;
 }
 
 .brochure-card {
@@ -450,7 +451,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(70deg, #3C0064, #fffdd0);
+  /* background: linear-gradient(70deg, #3C0064, #fffdd0); */
+  background-color: #a485b9;
   border-radius: 12px;
   padding: 20px 30px;
   width: 80%;
@@ -493,7 +495,7 @@
 .contact-platforms-section {
   padding: 60px 20px;
   text-align: center;
-  background-color: #f4f4f4;
+  background-color: #faf9e6;
 }
 
 .contact-platforms-section h2 {
@@ -538,6 +540,7 @@
   height: 60px;
   margin-bottom: 15px;
   transition: transform 0.3s ease;
+  mix-blend-mode: color-burn;
 }
 
 .platform-card p {
