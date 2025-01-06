@@ -320,8 +320,11 @@
 @media (max-width: 576px) {
   .about-us-section h2 {
     font-size: 2rem;
-    padding-left: 5px;
-    padding-right: 5px;
+
+  }
+  .about-text{
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 /* CEO Introduction Section */
