@@ -2,10 +2,12 @@
 
 import React from 'react';
 import './Resources.css';
+import FloatingWhatsAppButton from "./FloatingWAButton";
 
 const Resources = () => {
     return (
         <div className="resources-container">
+             <FloatingWhatsAppButton />
             <header className="resources-header">
                 <h1>Resources for Stock Market Trading</h1>
                 <p>Choose the right broker and start your trading journey today.</p>
@@ -21,7 +23,10 @@ const Resources = () => {
                         <li><strong>Low Brokerage Fees:</strong> Transparent and competitive pricing.</li>
                         <li><strong>Mobile & Web Platforms:</strong> Access your portfolio anytime, anywhere.</li>
                     </ul>
-                    <a href="#" className="cta-button">Open a DEMAT Account with Dhan</a>
+                    <a  href="https://join.dhan.co/?invite=TCPMT58746" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="cta-button">Open a DEMAT Account with Dhan</a>
                 </div>
 
                 <div className="broker-card">
@@ -33,7 +38,10 @@ const Resources = () => {
                         <li><strong>Robust Platforms:</strong> Desktop, web, and mobile versions tailored to various trading needs.</li>
                         <li><strong>API for Developers:</strong> Build custom trading strategies with Fyers\u2019 API.</li>
                     </ul>
-                    <a href="#" className="cta-button">Open a DEMAT Account with Fyers</a>
+                    <a  href="https://referral-link-kotakneo.com" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="cta-button">Open a DEMAT Account with Fyers</a>
                 </div>
 
                 <div className="broker-card">
@@ -45,7 +53,10 @@ const Resources = () => {
                         <li><strong>Competitive Pricing:</strong> Attractive brokerage plans.</li>
                         <li><strong>All-in-One App:</strong> Seamlessly manage your investments with a single app.</li>
                     </ul>
-                    <a href="#" className="cta-button">Open a DEMAT Account with Kotak Neo</a>
+                    <a  href="https://KotakSecurities.ref-r.com/c/i/32531/92755768" 
+                         target="_blank" 
+                        rel="noopener noreferrer"
+                         className="cta-button">Open a DEMAT Account with Kotak Neo</a>
                 </div>
             </section>
 

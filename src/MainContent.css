@@ -373,7 +373,7 @@
   color: #333;
 }
 .ceo-image {
-  width: 60%;
+  width: 50%;
   flex: 1;
   text-align: center;
   padding: 20px;
@@ -396,8 +396,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 75%;
-  height: 70%;
+  width: 100%;
+  height: 100%;
 /*  background-image: url('/public/Amri Logo V02.png'); /* Set background image */
   background-size: cover;
   background-position: center;

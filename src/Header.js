@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom"; //uselocation
 import { Navbar, Nav, Container } from "react-bootstrap";
 import "./Styles.css";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isNavbarExpanded, setIsNavbarExpanded] = useState(false);
-  const location = useLocation();
+  // const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {

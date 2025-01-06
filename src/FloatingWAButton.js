@@ -2,7 +2,7 @@ import React from "react";
 import "./FloatingWAButton.css"; // Import the CSS file for styling
 
 const FloatingWhatsAppButton = () => {
-  const phoneNumber = "8983513522"; // Replace with your WhatsApp number.
+  const phoneNumber = "9321783539"; // Replace with your WhatsApp number.
   const message = "Hello, I need more information."; // Optional pre-filled message.
 
   return (

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './about.css';
+import FloatingWhatsAppButton from "./FloatingWAButton";
 
 const About = () => {
   // Define teamMembers array with details
@@ -22,6 +23,19 @@ const About = () => {
       image: "AnjaliDongre.jpeg", // Replace with actual image paths
       description: "Alex brings creativity and strategy to connect with our audience and expand our reach globally.",
     },
+    {
+      name: "Ritik Dongre",
+      role: "Marketing Head",
+      image: "Ritik.png", // Replace with actual image paths
+      description: "Alex brings creativity and strategy to connect with our audience and expand our reach globally.",
+    },
+    {
+      name: "Anjali Dongre",
+      role: "Marketing Head",
+      image: "TeamMember#4.png", // Replace with actual image paths
+      description: "Alex brings creativity and strategy to connect with our audience and expand our reach globally.",
+    },
+    
   ];
 
   const [activeQuestions, setActiveQuestions] = useState({});
@@ -72,6 +86,7 @@ const About = () => {
 
   return (
     <div className="about-page">
+       <FloatingWhatsAppButton />
       <div className="welcome-section">
         <h1>Welcome to AmriTradesVSR</h1>
         <p>Our mission is to demystify the trading process, providing personalized guidance and support...</p>

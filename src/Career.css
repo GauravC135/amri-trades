@@ -28,7 +28,7 @@
   .apply-btn {
     padding: 15px 30px;
     margin-top: 20px;
-    background-color: #2980b9;
+    background-color: #a485b9;
     color: white;
     font-size: 1rem;
     border: none;
@@ -37,7 +37,7 @@
   }
   
   .apply-btn:hover {
-    background-color: #3498db;
+    background-color: #3C0064;
   }
   
   .remote-work h3 {

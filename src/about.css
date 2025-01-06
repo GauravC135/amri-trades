@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-  background-color: #E6E6FA;
+  background-color: #faf9e6;
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
@@ -20,7 +20,7 @@ p {
 .welcome-section {
   text-align: center;
   padding: 40px 20px;
-  background-color: #f9f9f9;
+  background-color: #a485b9;
 }
 
 .welcome-section h1 {
@@ -36,7 +36,7 @@ p {
 /* Team Section */
 .team-section {
   padding: 40px 20px;
-  background-color: #fff;
+  background-color: #faf9e6;
 }
 
 .team-cards {
@@ -47,7 +47,7 @@ p {
 }
 
 .team-card {
-  background-color: #f0f0f0;
+  background-color: #a485b9;
   border-radius: 8px;
   padding: 20px;
   text-align: center;
@@ -75,7 +75,7 @@ p {
 /* Testimonials Section */
 .testimonials-section {
   padding: 40px 20px;
-  background-color: #f9f9f9;
+  background-color: #faf9e6;
 }
 
 .testimonials {
@@ -93,7 +93,7 @@ p {
 }
 
 .testimonial-card {
-  background-color: #fff;
+  background-color: #a485b9;
   border-radius: 8px;
   padding: 20px;
   width: 300px;
@@ -104,7 +104,7 @@ p {
 /* FAQ Section */
 .faq-section {
   padding: 40px 20px;
-  background-color: #fff;
+  background-color: #a485b9;
 }
 
 .faq-category h3 {

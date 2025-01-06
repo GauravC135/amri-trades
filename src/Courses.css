@@ -4,14 +4,15 @@
   flex-direction: column;
   align-items: center;
   padding: 3rem 2rem;
-  background-color: #f4f4f9;
+  background-color: #faf9e6;
 }
 
 .main-header {
   text-align: center;
   margin-bottom: 3rem;
-  background: linear-gradient(90deg, #007BFF, #28a745);
-  color: white;
+  /* background: linear-gradient(90deg, #a485b9, rgb(245, 234, 175)); */
+  background-color: #a485b9;
+  color: #faf9e6;
   padding: 2rem;
   border-radius: 10px;
   animation: fadeIn 2s;
@@ -21,6 +22,7 @@
 .main-header h1 {
   font-size: 36px;
   margin-bottom: 10px;
+  color: rgb(245, 234, 175) !important;
 }
 
 .main-header p {
@@ -29,13 +31,13 @@
 
 h2 {
   font-size: 28px;
-  color: #007BFF;
+  color: #a485b9 !important;
   margin-bottom: 1rem;
 }
 
 p {
   font-size: 16px;
-  color: #555;
+  color: black !important;
   line-height: 1.6;
   margin-bottom: 1.5rem;
 }
@@ -53,10 +55,11 @@ p {
   flex: 1;
   padding: 1.5rem;
   margin-left: 2rem;
-  background: #fff;
+  /* background: #fff; */
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   min-height: 250px;
+  background-color:#a891b7 ;
 }
 
 .feature-description h3 {
@@ -209,7 +212,7 @@ p {
 
 /* Instructor Section */
 .instructor {
-  background-color: #fff;
+  background-color: #faf9e6;
   border-radius: 10px;
   padding: 2rem;
   margin-top: 3rem;
@@ -236,6 +239,123 @@ p {
   }
   to {
     opacity: 1;
+  }
+}
+.ceo-section {
+  padding: 60px 20px;
+  /* background-color: #f4f4f4; */
+  text-align: center;
+  /* background: linear-gradient(20deg, #be8ae1, #cfd3b4); */
+  background-color: #faf9e6;
+}
+
+.ceo-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+  position: relative;
+}
+
+.ceo-section h2::before {
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 5px;
+  background: linear-gradient(90deg, #3C0064, #c6cf95);
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-20%);
+}
+
+.ceo-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.ceo-text {
+  flex: 1;
+  font-size: 1.2rem;
+  color: #555;
+  text-align: left;
+}
+
+.ceo-name {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #333;
+}
+.ceo-image {
+  width: 50%;
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  position: relative; /* Make sure we can use the pseudo-element */
+  overflow: hidden; /* Ensure content is clipped inside the image area */
+  border-radius: 8px; /* Ensure consistency between image and container */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ceo-image img {
+  width: 50%;
+  height: 80%;
+  border-radius: 8px; /* Matches the container and pseudo-element */
+  position: relative; /* Ensures it's above the background image */
+  z-index: 1; /* Keeps the main image in front */
+}
+
+.ceo-image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+/*  background-image: url('/public/Amri Logo V02.png'); /* Set background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #a485b9;
+  opacity: 0.3; /* Change the opacity of the background image */
+  z-index: 0; /* Ensure background stays behind the image */
+  border-radius: 8px; /* Matches the shape of the image */
+}
+
+.ceo-text .btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.ceo-text .btn:hover {
+  background-color: #3C0064;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .ceo-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ceo-image img {
+    width: 70%;
+  }
+
+  .ceo-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .ceo-section h2 {
+    font-size: 2rem;
   }
 }
   
