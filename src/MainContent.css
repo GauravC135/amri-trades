@@ -55,7 +55,7 @@
 
 .feature-card img {
   width: 100%;
-  /* height: 200px; */
+  height: 1rem;
   object-fit: cover;
   transition: transform 0.3s ease-in-out;
 }
@@ -369,7 +369,7 @@
   color: #333;
 }
 .ceo-image {
-  width: 70%;
+  width: 40%;
   flex: 1;
   text-align: center;
   padding: 20px;
@@ -380,7 +380,7 @@
 }
 
 .ceo-image img {
-  width: 100%;
+  width: 1rem;
   height: auto;
   border-radius: 8px; /* Matches the container and pseudo-element */
   position: relative; /* Ensures it's above the background image */
