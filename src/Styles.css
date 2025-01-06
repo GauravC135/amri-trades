@@ -28,7 +28,7 @@
   color: rgb(245, 234, 175);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1400px) {
   .Header-text h1 {
     font-size: 1.5em; /* Smaller font size */
     padding-left: 10%; /* Adjust padding for smaller screens */
@@ -55,19 +55,19 @@
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1400px) {
   .join-us-section {
-    top: 80%; /* Adjust position */
-    left: 50%; /* Center horizontally */
-    transform: translate(-40%, -75%); /* Center both axes */
+    top: 80%; 
+    left: 50%; 
+    transform: translate(-90%, -100%); 
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .join-us-section {
     top: 90%; /* Adjust position */
     left: 50%;
-    transform: translate(-40%, -90%);
+    transform: translate(-90%, -90%);
   }
 }
 
