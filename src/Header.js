@@ -19,27 +19,28 @@ const Header = () => {
     };
   }, []);
 
-  const getBannerImage = () => {
-    switch (location.pathname) {
-      case "/courses":
-        return "Pic2AT.png";
-      case "/about":
-        return "Pic3AT.png";
-      case "/resources":
-        return "pic5AT.jpg";
-      case "/contact":
-        return "pic6AT.jpg";
-      default:
-        return "pic4AT.jpg";
-    }
-  };
+  // const getBannerImage = () => {
+  //   switch (location.pathname) {
+  //     case "/courses":
+  //       return "Pic2AT.png";
+  //     case "/about":
+  //       return "Pic3AT.png";
+  //     case "/resources":
+  //       return "pic5AT.jpg";
+  //     case "/contact":
+  //       return "pic6AT.jpg";
+  //     default:
+  //       return "pic4AT.jpg";
+  //   }
+  // };
 
   return (
     <>
       {/* Image Banner with Join Us button over it */}
       <div className="page-header-image">
         <img
-          src={getBannerImage()}
+          // src={getBannerImage()}
+          src={"pic4AT.jpg"}
           alt="Page Banner"
           className="header-img"
         />

@@ -320,6 +320,8 @@
 @media (max-width: 576px) {
   .about-us-section h2 {
     font-size: 2rem;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
 /* CEO Introduction Section */
@@ -394,8 +396,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 75%;
+  height: 70%;
 /*  background-image: url('/public/Amri Logo V02.png'); /* Set background image */
   background-size: cover;
   background-position: center;

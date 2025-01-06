@@ -117,7 +117,7 @@ const MainContent = () => {
               A comprehensive online course that covers everything from the basics to advanced trading strategies.
             </p>
             <a
-              href="https://forms.gle/xyz"
+              href="https://docs.google.com/forms/d/e/1FAIpQLScpco6GkK_sCOT4OixETFO8bYEUY-4v9jsOzDoNmx_4ICZ82g/viewform?usp=sf_link"
               className="btn"
               target="_blank"
               rel="noopener noreferrer"
@@ -131,7 +131,7 @@ const MainContent = () => {
               Join us in-person for a hands-on bootcamp to gain practical experience and knowledge.
             </p>
             <a
-              href="https://forms.gle/abc"
+              href="https://docs.google.com/forms/d/e/1FAIpQLScpco6GkK_sCOT4OixETFO8bYEUY-4v9jsOzDoNmx_4ICZ82g/viewform?usp=sf_link"
               className="btn"
               target="_blank"
               rel="noopener noreferrer"
@@ -184,7 +184,7 @@ My purpose is to empower individuals with financial knowledge, enabling them to 
         <h2>Connect With Us</h2>
         <div className="contact-platforms">
           <a
-            href="mailto:youremail@example.com"
+            href="mailto:Amri.trades100@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="platform-card"
@@ -192,12 +192,12 @@ My purpose is to empower individuals with financial knowledge, enabling them to 
             <img src="EmaiLogo.png" alt="Email" />
             <p>Email Us</p>
           </a>
-          <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer" className="platform-card">
+          <a href="https://www.instagram.com/amritrades?igsh=N2w2aXA3bWloMjdp&utm_source=qr" target="_blank" rel="noopener noreferrer" className="platform-card">
       <img src="InstaLogo.jpg" alt="Instagram" />
       <p>Instagram</p>
     </a>
           <a
-            href="https://linkedin.com/in/your-profile"
+            href="https://www.linkedin.com/in/amri-trade-vsr-367183339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
             target="_blank"
             rel="noopener noreferrer"
             className="platform-card"
@@ -205,7 +205,7 @@ My purpose is to empower individuals with financial knowledge, enabling them to 
             <img src="LinkedInLogo.png" alt="LinkedIn" />
             <p>LinkedIn</p>
           </a>
-          <a href="tel:+1234567890" className="platform-card">
+          <a href="tel:+919321783539" className="platform-card">
             <img src="CallLogo.png" alt="Call" />
             <p>Call Us</p>
           </a>

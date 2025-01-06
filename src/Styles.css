@@ -30,7 +30,7 @@
 
 @media (max-width: 768px) {
   .Header-text h1 {
-    font-size: 2em; /* Smaller font size */
+    font-size: 1.5em; /* Smaller font size */
     padding-left: 10%; /* Adjust padding for smaller screens */
     padding-bottom: 5%;
   }
@@ -38,7 +38,7 @@
 
 @media (max-width: 576px) {
   .Header-text h1 {
-    font-size: 1.5em; /* Further reduce font size */
+    font-size: 1em; /* Further reduce font size */
     padding-left: 5%; /* Minimal padding */
     padding-bottom: 3%;
     text-align: center; /* Center align for better appearance */
