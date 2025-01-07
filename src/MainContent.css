@@ -315,6 +315,10 @@
   .about-image img {
     width: 80%;
   }
+  .about-text{
+    padding-left: 5% !important;
+    padding-right: 5%  !important;
+  }
 }
 
 @media (max-width: 576px) {
@@ -323,8 +327,8 @@
 
   }
   .about-text{
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 }
 /* CEO Introduction Section */
@@ -432,7 +436,7 @@
   }
 
   .ceo-image img {
-    width: 70%;
+    width: 100%;
   }
 
   .ceo-text {
@@ -442,7 +446,10 @@
 
 @media (max-width: 576px) {
   .ceo-section h2 {
-    font-size: 2rem;
+    font-size: 1rem;
+  }
+  .ceo-image img {
+    width: 100%;
   }
 }
 .brochure-section {

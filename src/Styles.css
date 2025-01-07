@@ -59,7 +59,7 @@
   .join-us-section {
     top: 80%; 
     left: 50%; 
-    transform: translate(-90%, -110%); 
+    transform: translate(-90%, -100%); 
   }
 }
 
@@ -67,7 +67,7 @@
   .join-us-section {
     top: 90%; /* Adjust position */
     left: 50%;
-    transform: translate(-90%, -110%);
+    transform: translate(-90%, -100%);
   }
 }
 

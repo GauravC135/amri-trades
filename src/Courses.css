@@ -345,7 +345,7 @@ p {
   }
 
   .ceo-image img {
-    width: 70%;
+    width: 100%;
   }
 
   .ceo-text {
@@ -355,7 +355,10 @@ p {
 
 @media (max-width: 576px) {
   .ceo-section h2 {
-    font-size: 2rem;
+    font-size: 1rem;
+  }
+  .ceo-image img {
+    width: 100%;
   }
 }
   
