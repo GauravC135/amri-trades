@@ -15,25 +15,25 @@ const About = () => {
       name: "Akshay Amri",
       role: "Mentor",
       image: "AkshayAmri.jpeg", // Replace with actual image paths
-      description: "Jane is the tech wizard behind our trading tools, ensuring reliability and scalability for all users.",
+      description: "Akshay is a trader and mentor, an expert in technical analysis, who will teach you in the most simplified way.",
     },
     {
       name: "Anjali Dongre",
       role: "Marketing Head",
       image: "AnjaliDongre.jpeg", // Replace with actual image paths
-      description: "Alex brings creativity and strategy to connect with our audience and expand our reach globally.",
+      description: "Anjali is the one who will connect students and clients, bridging the gap to reach and impact as many people as possible.",
     },
     {
       name: "Ritik Dongre",
-      role: "Marketing Head",
+      role: "Operations Head",
       image: "Ritik.png", // Replace with actual image paths
-      description: "Alex brings creativity and strategy to connect with our audience and expand our reach globally.",
+      description: "Ritik is the one who manages all operations and oversees the team’s roles, ensuring smooth workflow and efficiency.",
     },
     {
-      name: "Anjali Dongre",
-      role: "Marketing Head",
+      name: "Zeeshan Deshmukh",
+      role: "Digital Marketing Head",
       image: "TeamMember4.png", // Replace with actual image paths
-      description: "Alex brings creativity and strategy to connect with our audience and expand our reach globally.",
+      description: "Zeeshan is the one who manages social media and drives creativity, ensuring maximum reach and engagement.",
     },
     
   ];
@@ -110,28 +110,29 @@ const About = () => {
   <div className="testimonials">
     {/* First Row with 3 Cards */}
     <div className="testimonial-card">
-      <p>"AmriTradesVSR changed the way I view trading. The mentorship is second to none!"</p>
-      <p>- Sarah J.</p>
+      <p>"US market is in bull mode now. I am earning well. Thank you for teaching trading strategies 🙏"</p>
+      <p>- Jayshree</p>
     </div>
+
     <div className="testimonial-card">
       <p>"I have learned so much in a short time. The courses are thorough and easy to understand."</p>
-      <p>- Michael D.</p>
+      <p>- Apeksha S.</p>
     </div>
     <div className="testimonial-card">
       <p>"The personalized support made all the difference in my success. Highly recommended!"</p>
-      <p>- Jasmine T.</p>
+      <p>- Kunal P.</p>
     </div>
   </div>
 
   {/* Second Row with 2 Centered Cards */}
   <div className="testimonials-second-row">
-    <div className="testimonial-card">
-      <p>"The best trading education platform I've found. In-depth and practical courses."</p>
-      <p>- David L.</p>
+  <div className="testimonial-card">
+      <p>"AmriTradesVSR changed the way I view trading. The mentorship is second to none!"</p>
+      <p>- Gaurav C.</p>
     </div>
     <div className="testimonial-card">
       <p>"The insights and mentorship provided have helped me grow my trading skills significantly."</p>
-      <p>- Rachel F.</p>
+      <p>- Manthan B.</p>
     </div>
   </div>
 </div>
