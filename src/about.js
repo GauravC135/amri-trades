@@ -26,7 +26,7 @@ const About = () => {
     {
       name: "Ritik Dongre",
       role: "Operations Head",
-      image: "Ritik.jpeg", // Replace with actual image paths
+      image: "Ritik.png", // Replace with actual image paths
       description: "Ritik is the one who manages all operations and oversees the team’s roles, ensuring smooth workflow and efficiency.",
     },
     {
