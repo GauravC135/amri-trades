@@ -12,14 +12,17 @@ const CareerPage = () => {
   return (
     <div className="career-page">
        <FloatingWhatsAppButton />
-      <header>
-        <h1>We Are Hiring</h1>
-        <p>Seize the opportunity to work with a renowned and certified trading firm, renowned for its excellence in this industry.</p>
+      <header>  
+        <h1>Join Our Team at AmriTrades VSR</h1>
+        <br/>
+        <h2>If you're a motivated and enthusiastic individual looking for a new challenge, we encourage you to apply.</h2>
+        <br/>
+        <p>At AmriTrades VSR, we provide dynamic career paths and opportunities for professional growth. Our collaborative workplace is tailored to foster a culture of excellence, innovation, and continuous learning.Through our structured training and development initiatives, we empower our team members to thrive and expand their skill sets. Additionally, we offer a comprehensive benefits package to support the well-being and success of our employees.</p>
       </header>
 
       <main>
         <section className="job-opportunity">
-          <h2>This is an amazing opportunity to work for the best in the business. Apply now!</h2>
+          {/* <h2>This is an amazing opportunity to work for the best in the business. Apply now!</h2> */}
           {/* <p></p> */}
           <button className="apply-btn" onClick={handleApplyClick}>Apply Now</button>
         </section>
