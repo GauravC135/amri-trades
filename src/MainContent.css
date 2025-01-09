@@ -435,6 +435,10 @@
     align-items: center;
   }
 
+  .ceo-image  {
+    width: 100%;
+  }
+
   .ceo-image img {
     width: 100%;
   }
@@ -447,6 +451,9 @@
 @media (max-width: 576px) {
   .ceo-section h2 {
     font-size: 1rem;
+  }
+  .ceo-image  {
+    width: 100% !important;
   }
   .ceo-image img {
     width: 100%;
