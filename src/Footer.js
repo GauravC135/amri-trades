@@ -25,7 +25,7 @@ const Footer = () => {
               <a href="www.youtube.com/@AmriTrades" target="_blank" rel="noopener noreferrer">
                 <FaYoutube size={20} />
               </a>
-              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.facebook.com/profile.php?id=61571641622295" target="_blank" rel="noopener noreferrer">
                 <FaFacebook size={20} />
               </a>
             </div>

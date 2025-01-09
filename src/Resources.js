@@ -30,18 +30,18 @@ const Resources = () => {
                 </div>
 
                 <div className="broker-card">
-                    <h2>Fyers</h2>
-                    <p>Fyers is ideal for traders looking for an innovative trading experience with cutting-edge technology.</p>
+                <h2>Zerodha</h2>
+                    <p>Zerodha is India's largest stockbroker, offering innovative solutions and tools for investors and traders.</p>
                     <ul>
-                        <li><strong>Charting Excellence:</strong> Over 65 technical indicators and customizable charts.</li>
-                        <li><strong>Free Investment Options:</strong> Zero brokerage on equity delivery trades.</li>
-                        <li><strong>Robust Platforms:</strong> Desktop, web, and mobile versions tailored to various trading needs.</li>
-                        <li><strong>API for Developers:</strong> Build custom trading strategies with Fyers\u2019 API.</li>
+                        <li><strong>Low-Cost Trading:</strong> Zero brokerage on equity delivery and flat fees on intraday trades.</li>
+                        <li><strong>Powerful Trading Platforms:</strong> Kite, a sleek and intuitive trading platform for web and mobile.</li>
+                        <li><strong>Educational Resources:</strong> Learn trading and investing with Zerodha's Varsity.</li>
+                        <li><strong>Wide Range of Products:</strong> Access stocks, mutual funds, bonds, and more.</li>
                     </ul>
-                    <a  href="https://referral-link-kotakneo.com" 
+                    <a  href=" https://zerodha.com/open-account?c=LZ9722" 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="cta-button">Open a DEMAT Account with Fyers</a>
+                        className="cta-button">Open a DEMAT Account with Zerodha</a>
                 </div>
 
                 <div className="broker-card">
