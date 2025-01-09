@@ -482,7 +482,7 @@
 .brochure-text h2 {
   font-size: 2rem;
   margin-bottom: 10px;
-  color: rgb(245, 234, 175) ;
+  color: rgb(245, 234, 175) !important ;
 }
 
 .brochure-text p {

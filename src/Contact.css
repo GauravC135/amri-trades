@@ -7,7 +7,7 @@
 /* Header Section */
 .contact-header {
   text-align: center;
-  background-color: #f4f4f4;
+  background-color: #a485b9;
   padding: 40px 20px;
   margin-bottom: 30px;
   border-radius: 10px;
@@ -16,7 +16,7 @@
 
 .contact-header h1 {
   font-size: 2.5rem;
-  color: #333;
+  color: rgb(245, 234, 175);
 }
 
 .contact-header p {

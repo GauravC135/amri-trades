@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { FaLinkedin, FaTwitter, FaYoutube, FaFacebook } from 'react-icons/fa';
+import { FaLinkedin, FaYoutube, FaFacebook, FaInstagram } from 'react-icons/fa';
 import './Footer.css'; // Import the CSS file
 
 const Footer = () => {
@@ -19,10 +19,10 @@ const Footer = () => {
               <a href="https://www.linkedin.com/in/amri-trade-vsr-367183339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin size={20} />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                <FaTwitter size={20} />
+              <a href="https://www.instagram.com/amritrades?igsh=N2w2aXA3bWloMjdp&utm_source=qr" target="_blank" rel="noopener noreferrer">
+                <FaInstagram size={20} />
               </a>
-              <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+              <a href="www.youtube.com/@AmriTrades" target="_blank" rel="noopener noreferrer">
                 <FaYoutube size={20} />
               </a>
               <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">

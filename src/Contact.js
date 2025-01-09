@@ -131,7 +131,7 @@ const Contact = () => {
         <h2>Connect With Us</h2>
         <div className="contact-platforms">
           <a
-            href="Amri.trades100@gmail.com"
+            href="mailto:Amri.trades100@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="platform-card"
