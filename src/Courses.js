@@ -150,7 +150,7 @@ The year 2021 marked a significant turning point in my career, as I mastered the
 
 My purpose is to empower individuals with financial knowledge, enabling them to become financially independent. Through structured wealth management programs, I aim to help people achieve their financial goals and live the life they aspire to. Financial literacy is not a luxury but a necessity, and I am committed to ensuring that this knowledge is accessible to everyone.
            </p>
-           <p className="ceo-name">Akshay Amri, Mentor</p>
+           <p className="ceo-name">Akshay Amri</p>
          </div>
          
        </div>
