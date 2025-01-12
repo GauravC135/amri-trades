@@ -178,9 +178,10 @@ If you are seeking guidance on navigating the complexities of the financial worl
               Get a detailed overview of our services, offerings, and vision. Click below to download the brochure now!
             </p>
           </div>
-          <a href="/Brochure.pdf" className="brochure-btn" download>
-            Download Brochure
-          </a>
+          <a href="/Brochure.pdf" className="brochure-btn" download type="application/pdf">
+    Download Brochure
+</a>
+
         </div>
       </div>
 
