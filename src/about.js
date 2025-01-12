@@ -21,7 +21,7 @@ const About = () => {
       name: "Anjali Dongre",
       role: "Marketing Head",
       image: "AnjaliDongre.jpeg", // Replace with actual image paths
-      description: "Anjali is the one who will connect students and clients, bridging the gap to reach and impact as many people as possible.",
+      description: "Meet Anjali, our Marketing Head, who also supports HR and provides counselling guidance. With a passion for people and communication, she fosters connections, positive culture, and personal growth.",
     },
     {
       name: "Ritik Dongre",
