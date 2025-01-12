@@ -119,7 +119,9 @@ const About = () => {
       <p>- Apeksha S.</p>
     </div>
     <div className="testimonial-card">
-      <p>"The personalized support made all the difference in my success. Highly recommended!"</p>
+      <p>"The trading course was very clear and effective for trading in the live market.
+It covered all the important candlestick patterns and made it easy to understand how to trade. The course also taught various strategies with live examples, making the learning process even easier.
+Overall, it's a great and effective course for beginners looking to start trading."</p>
       <p>- Kunal P.</p>
     </div>
   </div>
