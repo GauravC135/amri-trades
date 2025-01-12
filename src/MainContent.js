@@ -95,7 +95,7 @@ const MainContent = () => {
         <div className="about-us">
           <div className="about-text">
             <p>
-              Welcome to AmriTradesVSR, a premier institution dedicated to fostering financial independence. Our mission is to demystify the trading process, providing personalized guidance and support. Through our unique pedagogical approach, which integrates experiential learning, expert mentorship, and real-world case studies, we empower individuals to excel in the trading arena. By joining our community, you will unlock your full financial potential and embark on a journey towards achieving lasting financial freedom.
+              Welcome to AmriTradesVSR, a premier academy dedicated to fostering financial independence. Our mission is to demystify the trading process, providing personalized guidance and support. Through our unique pedagogical approach, which integrates experiential learning, expert mentorship, and real-world case studies, we empower individuals to excel in the trading arena. By joining our community, you will unlock your full financial potential and embark on a journey towards achieving lasting financial freedom.
             </p>
             <a href="#about" className="btn">
               Know More About Us

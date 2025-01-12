@@ -15,7 +15,7 @@ const About = () => {
       name: "Akshay Amri",
       role: "Mentor",
       image: "AkshayAmri.jpeg", // Replace with actual image paths
-      description: "Akshay is a trader and mentor, an expert in technical analysis, who will teach you in the most simplified way.",
+      description: "Meet Akshay, your trading mentor. He simplifies complex ideas, sharing expert knowledge through easy-to-understand language, real-life examples, and practical tips.",
     },
     {
       name: "Anjali Dongre",
@@ -120,8 +120,7 @@ const About = () => {
     </div>
     <div className="testimonial-card">
       <p>"The trading course was very clear and effective for trading in the live market.
-It covered all the important candlestick patterns and made it easy to understand how to trade. The course also taught various strategies with live examples, making the learning process even easier.
-Overall, it's a great and effective course for beginners looking to start trading."</p>
+It covered all the important candlestick patterns and made it easy to understand how to trade."</p>
       <p>- Kunal P.</p>
     </div>
   </div>
