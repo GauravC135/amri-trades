@@ -154,12 +154,15 @@ const MainContent = () => {
           <div className="ceo-text">
             <p>
              
-            Hello, my name is Akshay Amri. I hold a Bachelor’s degree in Computer Applications (BCA) and began my trading journey in 2017. Over the years, I have gained extensive knowledge and experience in the stock market. I am also an NISM-certified Research Analyst and a certified Mutual Fund Distributor.
+            Akshay Amri is a distinguished professional in the field of stock market analysis and financial education. Holding a Bachelor’s degree in Computer Applications (BCA), Akshay embarked on his trading journey in 2017. Over the years, he has built a solid foundation of expertise in the intricacies of the stock market. His relentless pursuit of excellence led him to earn certifications as an NISM-certified Research Analyst and a certified Mutual Fund Distributor, further solidifying his credentials in the financial domain.
 
-The year 2021 marked a significant turning point in my career, as I mastered the art of technical analysis, which has become my core strength. I firmly believe that with the right application of technical analysis, anyone can achieve consistent success in the stock market.
+The year 2021 marked a pivotal moment in Akshay's career when he mastered the art of technical analysis—a discipline that has since become the cornerstone of his professional endeavors. With his in-depth understanding of market trends and technical indicators, Akshay has demonstrated that achieving consistent success in the stock market is attainable through the proper application of technical analysis principles.
 
-My purpose is to empower individuals with financial knowledge, enabling them to become financially independent. Through structured wealth management programs, I aim to help people achieve their financial goals and live the life they aspire to. Financial literacy is not a luxury but a necessity, and I am committed to ensuring that this knowledge is accessible to everyone.
-            </p>
+Akshay’s mission transcends personal success; he is deeply committed to empowering others through financial literacy and education. Believing that financial knowledge is not a privilege but a necessity, Akshay dedicates his efforts to making this knowledge accessible to everyone. He is the architect behind structured wealth management programs designed to help individuals achieve their financial aspirations and attain financial independence.
+
+Through his work, Akshay aims to inspire and guide people toward a future where financial security and freedom are within reach. His unwavering commitment to enhancing financial literacy has positioned him as a trusted mentor and advocate for financial empowerment.
+
+If you are seeking guidance on navigating the complexities of the financial world or wish to achieve your financial goals, Akshay Amri is here to lead the way with his expertise and vision.            </p>
            
           </div>
           
@@ -175,7 +178,7 @@ My purpose is to empower individuals with financial knowledge, enabling them to 
               Get a detailed overview of our services, offerings, and vision. Click below to download the brochure now!
             </p>
           </div>
-          <a href="/brochure.pdf" className="brochure-btn" download>
+          <a href="/Brochure.pdf" className="brochure-btn" download>
             Download Brochure
           </a>
         </div>
