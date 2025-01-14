@@ -136,7 +136,7 @@ const Contact = () => {
             rel="noopener noreferrer"
             className="platform-card"
           >
-            <img src="/email-icon.png" alt="Email" />
+            <img src="EmaiLogo.png" alt="Email" />
             <p>Email Us</p>
           </a>
           <a
@@ -145,7 +145,7 @@ const Contact = () => {
             rel="noopener noreferrer"
             className="platform-card"
           >
-            <img src="/instagram-icon.png" alt="Instagram" />
+            <img src="InstaLogo.jpg" alt="Instagram" />
             <p>Instagram</p>
           </a>
           <a
@@ -154,11 +154,11 @@ const Contact = () => {
             rel="noopener noreferrer"
             className="platform-card"
           >
-            <img src="/linkedin-icon.png" alt="LinkedIn" />
+            <img src="LinkedInLogo.png" alt="LinkedIn" />
             <p>LinkedIn</p>
           </a>
           <a href="tel:+919321783539" className="platform-card">
-            <img src="/call-icon.png" alt="Call" />
+            <img src="CallLogo.png" alt="Call" />
             <p>Call Us</p>
           </a>
         </div>
