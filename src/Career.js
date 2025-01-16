@@ -5,7 +5,7 @@ import FloatingWhatsAppButton from "./FloatingWAButton";
 const CareerPage = () => {
   const handleApplyClick = () => {
     // Replace with the actual Google Form URL
-    const googleFormURL = 'https://docs.google.com/forms/d/e/1FAIpQLScpco6GkK_sCOT4OixETFO8bYEUY-4v9jsOzDoNmx_4ICZ82g/viewform?usp=sf_link'; 
+    const googleFormURL = 'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jStf5RUMlpHQURIRVkxODhYQ0FXSkZCUFU4SlVMRC4u'; 
     window.open(googleFormURL, '_blank');
   };
 
