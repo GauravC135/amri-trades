@@ -88,7 +88,7 @@ const Header = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
               <Nav.Link as={Link} to="/courses" onClick={() => setIsNavbarExpanded(false)}>Courses</Nav.Link>
-              <Nav.Link as={Link} to="/about" onClick={() => setIsNavbarExpanded(false)}>About Us</Nav.Link>
+              {/* <Nav.Link as={Link} to="/about" onClick={() => setIsNavbarExpanded(false)}>About Us</Nav.Link> */}
               <Nav.Link as={Link} to="/resources" onClick={() => setIsNavbarExpanded(false)}>Resources</Nav.Link>
               <Nav.Link as={Link} to="/contact" onClick={() => setIsNavbarExpanded(false)}>Contact Us</Nav.Link>
               <Nav.Link as={Link} to="/career" onClick={() => setIsNavbarExpanded(false)}>Career</Nav.Link>
