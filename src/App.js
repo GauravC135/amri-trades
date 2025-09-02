@@ -4,7 +4,7 @@ import Header from './Header';
 import MainContent from './MainContent'; 
 import Footer from './Footer';
 import './App.css';
-import About from './about';
+// import About from './about';
 import Contact from './Contact';
 import Courses from './Courses';
 import Career from './Career';
